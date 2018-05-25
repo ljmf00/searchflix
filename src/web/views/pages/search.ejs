@@ -1,0 +1,19 @@
+<table>
+	<caption>Results</caption>
+	<tr>
+		<th>Name</th>
+		<th>Size</th>
+		<th>Seeders</th>
+		<th>Leachers</th>
+		<th>Watch</th>
+	</tr>
+	<% query.forEach(function (line) { %>
+		<tr>
+			<td><%= line.name %></td>
+			<td><%= line.size %></td>
+			<td><%= line.seeds %></td>
+			<td><%= line.peers %></td>
+			<td><a href='/stream?magnet=<%= line.magnet %>'>link text</a></td>
+		</tr>
+	<% }) %>
+</table>

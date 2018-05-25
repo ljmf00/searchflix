@@ -1,0 +1,27 @@
+{
+  "name": "searchflix",
+  "description": "Streaming Metasearch Engine",
+  "version": "0.0.2",
+  "author": "Luís 'ljmf00' Ferreira",
+  "license": "MIT",
+  "homepage": "https://github.com/ljmf00/searchflix",
+  "main": "src/app.js",
+  "bugs": {
+    "url": "https://github.com/ljmf00/searchflix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ljmf00/searchflix.git"
+  },
+  "bin": {
+    "searchflix": "src/app.js"
+  },
+  "dependencies": {
+    "granax": "^3.1.3",
+    "express": "^4.16.3",
+    "ejs": "^2.6.1",
+    "torrent-stream": "^1.0.4",
+    "stream-transcoder": "^0.0.5",
+    "torrentz2": "^1.0.6"
+  }
+}
