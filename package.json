@@ -1,7 +1,7 @@
 {
   "name": "searchflix",
   "description": "Streaming Metasearch Engine",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Luís 'ljmf00' Ferreira",
   "license": "MIT",
   "homepage": "https://github.com/ljmf00/searchflix",
